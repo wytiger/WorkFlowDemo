@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private WorkNode getSecondNode() {
-        return WorkNode.build(1, new Worker() {
+        return WorkNode.build(2, new Worker() {
             @Override
             public void doWork(Node current) {
                 Toast.makeText(MainActivity.this, "任务2", Toast.LENGTH_SHORT).show();
