@@ -1,0 +1,2 @@
+include ':app', ':workflow'
+rootProject.name='WorkFlowDemo'
